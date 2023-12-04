@@ -3,7 +3,7 @@ two = " "
 three = "2"
 four = " "
 five = "3"
-print(one, two, three, four, five)
+print("{} {} {} {} {}".format(one, two, three, four, five))
 
 one, two = two, one
 print("{} {} {} {} {}".format(one, two, three, four, five))
