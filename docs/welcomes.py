@@ -1,5 +1,7 @@
-## 변수 선언 후 저의 시 고려점 (넣는 값이 문자 or 숫자)
+## 변수 선언 후 정의 시 고려점 (넣는 값이 문자 or 숫자)
 # 문자 출력
+print("Hello, World! Youngji Jang.") # 상수
+
 helloworld = "Hello, World! Youngji Jang." # 문자형 변수
 print(helloworld)
 
