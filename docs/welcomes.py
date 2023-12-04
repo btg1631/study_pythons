@@ -12,6 +12,6 @@ print(numbers)
 
 # 가정문 
 if 5 > 2: # 묶은 기호인 :과 tab은 하나의 쌍
-    pass
+    pass # 디버깅할 때 유용하다 
     print("Five is greater than two!")
 print("end")
