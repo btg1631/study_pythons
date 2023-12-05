@@ -25,7 +25,7 @@
 |반복문|[py](./docs/codingtests/2739.py)|구구단을 출력|[백준 2739](https://www.acmicpc.net/problem/2739)|
 |반복문|[py](./docs/codingtests/10950.py)|A+B를 여러 번 출력|[백준 10950](https://www.acmicpc.net/problem/10950)|
 |반복문|[py](./docs/codingtests/8393.py)|1부터 N까지의 합을 출력|[백준 8393](https://www.acmicpc.net/problem/8393)|
-|반복문|[py](./docs/codingtests/8393.py)|출력|[백준 8393](https://www.acmicpc.net/problem/8393)|
+|반복문|[py](./docs/codingtests/25304.py)|영수증의 총 금액을 계산하는 문제|[백준 25304](https://www.acmicpc.net/problem/25304)|
 
 |3|4|6|7|
 

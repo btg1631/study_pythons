@@ -25,13 +25,12 @@ for i in range(N):
     a, b = input().split()
     a = int(a)
     b = int(b)
-    result_a += a
-    result_b += b
-    
-result = result_a//result_b
-print(result)
+    result_a = a*b
+    print(result_a)
+    result_b += result_a
 
-if result == X:
+
+if result_b == X:
     print("Yes")
 else:
     print("No")
