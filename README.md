@@ -26,6 +26,10 @@
 |반복문|[py](./docs/codingtests/10950.py)|A+B를 여러 번 출력|[백준 10950](https://www.acmicpc.net/problem/10950)|
 |반복문|[py](./docs/codingtests/8393.py)|1부터 N까지의 합을 출력|[백준 8393](https://www.acmicpc.net/problem/8393)|
 |반복문|[py](./docs/codingtests/25304.py)|영수증의 총 금액을 계산하는 문제|[백준 25304](https://www.acmicpc.net/problem/25304)|
+|반복문|[py](./docs/codingtests/25314.py)|N바이트 정수까지 저장할 수 있는 정수 자료형의 이름을 출력|[백준 25314](https://www.acmicpc.net/problem/25314)|
+|반복문|[py](./docs/codingtests/15552.py)|빠르게 입력받고 출력|[백준 15552](https://www.acmicpc.net/problem/15552)|
+|반복문|[py](./docs/codingtests/11021.py)|"Case #x: "를 출력한 다음, A+B를 출력|[백준 11021](https://www.acmicpc.net/problem/11021)|
+|반복문|[py](./docs/codingtests/11022.py)|"Case #x: A + B = C" 형식으로 출력|[백준 11022](https://www.acmicpc.net/problem/11022)|
 
 |3|4|6|7|
 
