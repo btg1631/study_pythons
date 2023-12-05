@@ -1,4 +1,4 @@
-num_first = int(input())
+num_first = int(input("구구단 몇 단을 출력할까요? : "))
 num_second = 0
 while num_second < 9:
     num_second += 1
