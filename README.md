@@ -18,8 +18,14 @@
 |조건문|[py](./docs/codingtests/1330.py)|두 수를 비교한 결과를 출력|[백준 1330](https://www.acmicpc.net/problem/1330)|
 |조건문|[py](./docs/codingtests/9498.py)|시험 성적을 출력|[백준 9498](https://www.acmicpc.net/problem/9498)|
 |조건문|[py](./docs/codingtests/2753.py)|윤년을 판별하는 문제|[백준 2753](https://www.acmicpc.net/problem/2753)|
-|조건문|[py](./docs/codingtests/14681.py)|점이 어느 사분면에 있는지 알아내는 문제
-|[백준 14681](https://www.acmicpc.net/problem/14681)|
-|3|4|6|7|
+|조건문|[py](./docs/codingtests/14681.py)|점이 어느 사분면에 있는지 알아내는 문제|[백준 14681](https://www.acmicpc.net/problem/14681)|
+|조건문|[py](./docs/codingtests/2884.py)|시간 계산 문제|[백준 2884](https://www.acmicpc.net/problem/2884)|
+|조건문|[py](./docs/codingtests/2525.py)|범위가 더 넓은 시간 계산 문제|[백준 2525](https://www.acmicpc.net/problem/2525)|
+|조건문|[py](./docs/codingtests/2480.py)|조건에 따라 상금을 계산하는 문제|[백준 2480](https://www.acmicpc.net/problem/2480)|
+|반복문|[py](./docs/codingtests/2739.py)|구구단을 출력|[백준 2739](https://www.acmicpc.net/problem/2739)|
+|반복문|[py](./docs/codingtests/10950.py)|A+B를 여러 번 출력|[백준 10950](https://www.acmicpc.net/problem/10950)|
+|반복문|[py](./docs/codingtests/8393.py)|1부터 N까지의 합을 출력|[백준 8393](https://www.acmicpc.net/problem/8393)|
+|반복문|[py](./docs/codingtests/8393.py)|출력|[백준 8393](https://www.acmicpc.net/problem/8393)|
 
+|3|4|6|7|
 

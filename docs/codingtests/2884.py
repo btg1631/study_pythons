@@ -22,10 +22,16 @@
 H, M = input().split()
 H = int(H)
 M = int(M)
-h = 23
-m = 15
-# 23시 15분 - 24 
-if 
-(H + int(h))-24
-(M + int(m))
-print("{} {}".format(H, M))
+
+# 23시 15분 - 24시 60분
+if H == 0:
+    if M < 45:
+        print((H + 23), (M + 15))
+    else:
+        print((H), (M + 15 - 60))
+elif 0 < H:
+    if M < 45:
+        print((H + 23 - 24), (M + 15))
+    else:
+        print((H), (M + 15 - 60))
+   
