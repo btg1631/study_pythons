@@ -30,6 +30,12 @@
 |반복문|[py](./docs/codingtests/15552.py)|빠르게 입력받고 출력|[백준 15552](https://www.acmicpc.net/problem/15552)|
 |반복문|[py](./docs/codingtests/11021.py)|"Case #x: "를 출력한 다음, A+B를 출력|[백준 11021](https://www.acmicpc.net/problem/11021)|
 |반복문|[py](./docs/codingtests/11022.py)|"Case #x: A + B = C" 형식으로 출력|[백준 11022](https://www.acmicpc.net/problem/11022)|
+|반복문|[py](./docs/codingtests/2438.py)|첫째 줄부터 N번째 줄까지 차례대로 별을 출력|[백준 2438](https://www.acmicpc.net/problem/2438)|
+|반복문|[py](./docs/codingtests/2439.py)|첫째 줄부터 N번째 줄까지 차례대로 별을 출력2|[백준 2439](https://www.acmicpc.net/problem/2439)|
+|반복문|[py](./docs/codingtests/10952.py)|0 0이 들어올 때까지 A+B를 출력|[백준 10952](https://www.acmicpc.net/problem/10952)|
+|반복문|[py](./docs/codingtests/10951.py)|입력이 끝날 때까지 A+B를 출력(EOF)|[백준 10951](https://www.acmicpc.net/problem/10951)|
+|배열|[py](./docs/codingtests/10807.py)|입력으로 주어진 N개의 정수 중에 v가 몇 개인지 출력|[백준 10807](https://www.acmicpc.net/problem/10807)|
+|배열|[py](./docs/codingtests/10871.py)|X보다 작은 수를 입력받은 순서대로 공백으로 구분해 출력|[백준 10871](https://www.acmicpc.net/problem/10871)|
 
 |3|4|6|7|
 
