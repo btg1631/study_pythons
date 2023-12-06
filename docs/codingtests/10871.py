@@ -19,8 +19,10 @@ A = list(map(int, A))
 
 for i in range(N):
     if A[i] < X:
-        result.append(A[i]) 
+        result.append(A[i])
 
-print(result)
+for i in range(len(result)):  
+    print(result[i], end=' ')
+
     
 

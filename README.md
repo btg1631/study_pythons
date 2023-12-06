@@ -34,8 +34,12 @@
 |반복문|[py](./docs/codingtests/2439.py)|첫째 줄부터 N번째 줄까지 차례대로 별을 출력2|[백준 2439](https://www.acmicpc.net/problem/2439)|
 |반복문|[py](./docs/codingtests/10952.py)|0 0이 들어올 때까지 A+B를 출력|[백준 10952](https://www.acmicpc.net/problem/10952)|
 |반복문|[py](./docs/codingtests/10951.py)|입력이 끝날 때까지 A+B를 출력(EOF)|[백준 10951](https://www.acmicpc.net/problem/10951)|
-|배열|[py](./docs/codingtests/10807.py)|입력으로 주어진 N개의 정수 중에 v가 몇 개인지 출력|[백준 10807](https://www.acmicpc.net/problem/10807)|
-|배열|[py](./docs/codingtests/10871.py)|X보다 작은 수를 입력받은 순서대로 공백으로 구분해 출력|[백준 10871](https://www.acmicpc.net/problem/10871)|
+|배열|[py](./docs/codingtests/10807.py)|배열을 입력받고 v를 찾는 문제|[백준 10807](https://www.acmicpc.net/problem/10807)|
+|배열|[py](./docs/codingtests/10871.py)|배열을 입력받고 X보다 작은 수를 찾는 문제|[백준 10871](https://www.acmicpc.net/problem/10871)|
+|배열|[py](./docs/codingtests/10818.py)|최솟값과 최댓값을 찾는 문제|[백준 10818](https://www.acmicpc.net/problem/10818)|
+|배열|[py](./docs/codingtests/2562.py)|최댓값이 어디에 있는지 찾는 문제|[백준 2562](https://www.acmicpc.net/problem/2562)|
+|배열|[py](./docs/codingtests/10810.py)|배열에 값을 쓰는 문제|[백준 10810](https://www.acmicpc.net/problem/10810)|
+|배열|[py](./docs/codingtests/10813.py)|배열의 값을 교환하는 문제|[백준 10813](https://www.acmicpc.net/problem/10813)|
 
 |3|4|6|7|
 
