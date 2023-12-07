@@ -44,8 +44,12 @@
 |배열|[py](./docs/codingtests/3052.py)|배열을 활용하여 서로 다른 값의 개수를 찾는 문제|[백준 3052](https://www.acmicpc.net/problem/3052)|
 |배열|[py](./docs/codingtests/10811.py)|배열을 뒤집는 문제|[백준 10811](https://www.acmicpc.net/problem/10811)|
 |배열|[py](./docs/codingtests/1546.py)|평균을 조작하는 문제|[백준 1546](https://www.acmicpc.net/problem/1546)|
-|문자열|[py](./docs/codingtests/27866.py)| S의 i번째 글자를 출력|[백준 27866](https://www.acmicpc.net/problem/27866)|
-
+|문자열|[py](./docs/codingtests/27866.py)|S의 i번째 글자를 출력|[백준 27866](https://www.acmicpc.net/problem/27866)|
+|문자열|[py](./docs/codingtests/2743.py)|입력으로 주어진 단어의 길이를 출력|[백준 2743](https://www.acmicpc.net/problem/2743)|
+|문자열|[py](./docs/codingtests/9086.py)|주어진 문자열의 첫 글자와 마지막 글자를 연속하여 출력|[백준 9086](https://www.acmicpc.net/problem/9086)|
+|문자열|[py](./docs/codingtests/11654.py)|주어진 글자의 아스키 코드 값을 출력|[백준 11654](https://www.acmicpc.net/problem/11654)|
+|문자열|[py](./docs/codingtests/11720.py)|주어진 숫자 N개의 합을 출력|[백준 11720](https://www.acmicpc.net/problem/11720)|
+|문자열|[py](./docs/codingtests/10809.py)|한 단어에서 각 알파벳이 처음 등장하는 위치를 찾는 문제|[백준 10809](https://www.acmicpc.net/problem/10809)|
 
 |3|4|6|7|
 
