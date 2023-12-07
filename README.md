@@ -40,6 +40,12 @@
 |배열|[py](./docs/codingtests/2562.py)|최댓값이 어디에 있는지 찾는 문제|[백준 2562](https://www.acmicpc.net/problem/2562)|
 |배열|[py](./docs/codingtests/10810.py)|배열에 값을 쓰는 문제|[백준 10810](https://www.acmicpc.net/problem/10810)|
 |배열|[py](./docs/codingtests/10813.py)|배열의 값을 교환하는 문제|[백준 10813](https://www.acmicpc.net/problem/10813)|
+|배열|[py](./docs/codingtests/5597.py)|1번째 줄엔 제출하지 않은 학생의 출석번호 중 가장 작은 것을 출력하고, 2번째 줄에선 그 다음 출석번호를 출력|[백준 5597](https://www.acmicpc.net/problem/5597)|
+|배열|[py](./docs/codingtests/3052.py)|배열을 활용하여 서로 다른 값의 개수를 찾는 문제|[백준 3052](https://www.acmicpc.net/problem/3052)|
+|배열|[py](./docs/codingtests/10811.py)|배열을 뒤집는 문제|[백준 10811](https://www.acmicpc.net/problem/10811)|
+|배열|[py](./docs/codingtests/1546.py)|평균을 조작하는 문제|[백준 1546](https://www.acmicpc.net/problem/1546)|
+|문자열|[py](./docs/codingtests/27866.py)| S의 i번째 글자를 출력|[백준 27866](https://www.acmicpc.net/problem/27866)|
+
 
 |3|4|6|7|
 

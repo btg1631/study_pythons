@@ -14,13 +14,13 @@
 
 N, M = map(int, input().split())
 B = [int() for x in range(1, N+1)]
-print(B)
 
-for x in range(1, N+1):
-    B[x] = x
+for b in range(0, N):   # B(바구니)리스트에 1~N까지의 공을 넣음
+    B[b] = b+1
 
 for a in range(M):      # M개의 줄에 걸쳐 두 바구니 i, j의 공을 교환
     i, j = map(int, input().split())
-    i, j = j, i
-    
-   
+    B[i-1], B[j-1] = B[j-1], B[i-1]
+
+for s in range(len(B)):
+    print(B[s], end=' ')
