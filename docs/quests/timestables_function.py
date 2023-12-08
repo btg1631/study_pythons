@@ -1,6 +1,10 @@
+def multiply(user_input, num_count):
+    result_multiply = user_input * num_count
+    return result_multiply
+
 def gugudan(user_input):
     for num_count in range(1, 10):
-        result = user_input * num_count
+        result = multiply(user_input, num_count)
         print("{} * {} = {}".format(user_input, num_count, result))
     return
 
