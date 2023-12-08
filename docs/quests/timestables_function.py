@@ -1,8 +1,5 @@
 def gugudan(user_input):
     for num_count in range(1, 10):
-        # num_user_input = user_input
-        # # num_count_result = num_count
-        # result = num_user_input*num_count_result
         result = user_input * num_count
         print("{} * {} = {}".format(user_input, num_count, result))
     return
