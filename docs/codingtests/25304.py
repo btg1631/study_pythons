@@ -39,7 +39,9 @@ X = int(input())
 N = int(input())
 
 def bill(things):
+    result_b = 0
     for _ in range(things):
+        
         a, b = map(int, input().split())
         result_a = a*b
         result_b += result_a

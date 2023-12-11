@@ -7,11 +7,21 @@
 # 출력
 ## 각 테스트 케이스마다 "Case #x: "를 출력한 다음, A+B를 출력한다. 테스트 케이스 번호는 1부터 시작한다.
 
-T = int(input())
+# T = int(input())
 
-for i in range(1, T+1):
-    A, B = input().split()
-    A = int(A)
-    B = int(B)
-    result = A+B
-    print("Case #{}: {}".format(i, result))
+# for i in range(1, T+1):
+#     A, B = input().split()
+#     A = int(A)
+#     B = int(B)
+#     result = A+B
+#     print("Case #{}: {}".format(i, result))
+
+
+def testcase(num):
+    for i in range(1, num+1):
+        A, B = map(int, input().split())
+        result = A+B
+        print("Case #{}: {}".format(i, result))
+
+T = int(input())
+testcase(T)

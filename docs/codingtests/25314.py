@@ -10,6 +10,15 @@
 # 출력
 ## N바이트 정수까지 저장할 수 있다고 생각하는 정수 자료형의 이름을 출력하여라.
 
+# N = int(input())
+# n = N//4
+# print("{}int".format("long "*n))
+
+
+def problem(num):
+    long = "long "*(num//4) + "int"
+
+    return print(long)
+
 N = int(input())
-n = N//4
-print("{}int".format("long "*n))
+problem(N)
