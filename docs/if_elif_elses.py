@@ -47,20 +47,35 @@ my_score > 80
 # False
 
 
+# pass
+# if my_score >= 90: # 90점 이상 : A
+#     pass
+#     print("{}은 90점 이상으로 A학점".format())
+# elif my_score > 80: # 80점 초과 : B
+#     pass
+#     print("{}은 80점 초과로 B학점".format())
+# else:   # 나머지 : F
+#     pass
+#     print("{}은 80점 이하이므로 F학점".format())
+
+
+# 부등호 사용 시 결과는 True or False(boolean)
+# 논리 연산자(True or False 대한 결과값)
+first = 200
+second = 33
+third = 500
+
+first > second
+# True
+third > first
+# Ture
+if first > second and third > first :
+    print("Both conditions are True")
+
+if not (first < second):
+    print("(first > second)")
+# False
 pass
-if my_score >= 90: # 90점 이상 : A
-    pass
-    print("{}은 90점 이상으로 A학점".format())
-elif my_score > 80: # 80점 초과 : B
-    pass
-    print("{}은 80점 초과로 B학점".format())
-else:   # 나머지 : F
-    pass
-    print("{}은 80점 이하이므로 F학점".format())
-
-
-
-
 print("End Program!")
 
 

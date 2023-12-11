@@ -7,10 +7,21 @@
 # 출력
 ## 각 테스트 케이스마다 A+B를 출력한다.
 
-T = int(input())
+# T = int(input())
 
-for i in range(T):
-    A, B = input().split()
-    A = int(A)
-    B = int(B)
-    print(A+B)
+# for i in range(T):
+#     A, B = input().split()
+#     A = int(A)
+#     B = int(B)
+#     print(A+B)
+
+
+def merge(num):
+    for _ in range(num):
+        A, B = map(int, input().split())
+        print(A+B)
+
+
+T = int(input())
+merge(T)
+

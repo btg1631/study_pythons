@@ -6,7 +6,15 @@
 # 출력
 ## 출력형식과 같게 N*1부터 N*9까지 출력한다.
 
-N = int(input())
+# N = int(input())
 
-for i in range(1, 10):
-    print(N, "*", i, "=", N*i)
+# for i in range(1, 10):
+#     print(N, "*", i, "=", N*i)
+
+
+def gugudan(num):
+    for i in range(1, 10):
+        print(num, "*", i, "=", num*i)
+
+N = int(input())
+gugudan(N)

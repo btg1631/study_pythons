@@ -41,6 +41,26 @@
 
 
 
+def oven_clock(hour, min):
+    cook_min = int(input())
+    cook_min = min + cook_min
+    if cook_min > 60: 
+        hour +=  cook_min//60
+        cook_min = cook_min%60
+        if hour > 23:
+            print(hour%24, cook_min)
+        else:
+            print(hour, cook_min)
+    elif cook_min == 60:
+        cook_min = 0
+        hour += 1
+        if hour > 23:
+            print(hour%24, cook_min)
+        else:
+            print(hour, cook_min)
+    else:
+        print(hour, cook_min)
 
 
-
+h, m = map(int, input().split())
+oven_clock(h, m)

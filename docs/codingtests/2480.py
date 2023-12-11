@@ -13,31 +13,49 @@
 # 출력
 ## 첫째 줄에 게임의 상금을 출력 한다.
 
-A, B, C = input().split()
-A = int(A)
-B = int(B)
-C = int(C)
+# A, B, C = input().split()
+# A = int(A)
+# B = int(B)
+# C = int(C)
 
-# A == B == C
-# A == B / A == C / B == C
-# else
+# # A == B == C
+# # A == B / A == C / B == C
+# # else
 
-if A == B == C:
-    print(10000+(A*1000))
-elif A == B:
-    print(1000+(A*100))
-elif A == C:
-    print(1000+(A*100))
-elif C == B:
-    print(1000+(C*100))
-else:
-    if A > B and A > C:
-        print(A*100)
-    elif B > A and B > C:
-        print(B*100)
+# if A == B == C:
+#     print(10000+(A*1000))
+# elif A == B:
+#     print(1000+(A*100))
+# elif A == C:
+#     print(1000+(A*100))
+# elif C == B:
+#     print(1000+(C*100))
+# else:
+#     if A > B and A > C:
+#         print(A*100)
+#     elif B > A and B > C:
+#         print(B*100)
+#     else:
+#         print(C*100)
+
+
+
+def price(dice_a, dice_b, dice_c):
+    if dice_a == dice_b == dice_c:
+        print(10000+(dice_a*1000))
+    elif dice_a == dice_b or dice_a == dice_c:
+        print(1000+(dice_a*100))
+    elif dice_c == dice_b:
+        print(1000+(dice_c*100))
     else:
-        print(C*100)
-    
-    
+        if dice_a > dice_b and dice_a > dice_c:
+            print(dice_a*100)
+        elif dice_b > dice_a and dice_b > dice_c:
+            print(dice_b*100)
+        else:
+            print(dice_c*100)
+
+a, b, c = map(int, input().split())
+price(a, b, c)
         
     

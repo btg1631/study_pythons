@@ -6,12 +6,20 @@
 # 출력
 ## 1부터 n까지 합을 출력한다.
 
+# n = int(input())
+# result = 0
+# for i in range(1, n+1):
+#     result = result + i
+
+# print(result)
+
+
+def merge(num):
+    result = 0
+    for i in range(1, num+1):
+        result = result + i
+    print(result)
 
 n = int(input())
-result = 0
-for i in range(1, n+1):
-    result = result + i
-
-print(result)
-
+merge(n)
 
