@@ -15,25 +15,38 @@
 ## 구매한 물건의 가격과 개수로 계산한 총 금액이 영수증에 적힌 총 금액과 일치하면
 ## Yes를 출력한다. 일치하지 않는다면 No를 출력한다.
 
+# X = int(input())
+# N = int(input())
+
+# result_b = 0
+# result_a = 0
+
+# for i in range(N):
+#     a, b = input().split()
+#     a = int(a)
+#     b = int(b)
+#     result_a = a*b
+#     result_b += result_a
+
+
+# if result_b == X:
+#     print("Yes")
+# else:
+#     print("No")
+
+
 X = int(input())
 N = int(input())
 
-result_b = 0
-result_a = 0
+def bill(things):
+    for _ in range(things):
+        a, b = map(int, input().split())
+        result_a = a*b
+        result_b += result_a
+        
+    if result_b == X:
+        print("Yes")
+    else:
+        print("No")
 
-for i in range(N):
-    a, b = input().split()
-    a = int(a)
-    b = int(b)
-    result_a = a*b
-    print(result_a)
-    result_b += result_a
-
-
-if result_b == X:
-    print("Yes")
-else:
-    print("No")
-
-
-
+bill(N)
