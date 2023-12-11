@@ -20,9 +20,13 @@ class Arithmetics:
         return div
     
 arithmetics = Arithmetics()
-subtraction = arithmetics.sub(5, 6)     # 뺄셈
-print(subtraction)
-multiplication = arithmetics.mul(5, 6)  # 곱셈
-print(multiplication)
-division = arithmetics.div(5, 6)        # 나눗셈
-print(division)
+
+input_a = int(input("숫자 입력 1: "))
+input_b = int(input("숫자 입력 2: "))
+
+subtraction = arithmetics.sub(input_a, input_b)     # 뺄셈
+print("{} - {} = {}".format(input_a, input_b, subtraction))
+multiplication = arithmetics.mul(input_a, input_b)  # 곱셈
+print("{} * {} = {}".format(input_a, input_b, multiplication))
+division = arithmetics.div(input_a, input_b)        # 나눗셈
+print("{} / {} = {}".format(input_a, input_b, division))
