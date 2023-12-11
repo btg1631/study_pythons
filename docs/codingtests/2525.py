@@ -1,4 +1,4 @@
-# https://www.acmicpc.net/promlem/2525
+# https://www.acmicpc.net/problem/2525
 # 문제
 ## KOI 전자에서는 건강에 좋고 맛있는 훈제오리구이 요리를 간편하게 만드는 인공지능 오븐을 개발하려고 한다.
 ## 인공지능 오븐을 사용하는 방법은 적당한 양의 오리 훈제 재료를 인공지능 오븐에 넣으면 된다.
@@ -14,29 +14,33 @@
 ## 첫째 줄에 종료되는 시각의 시와 분을 공백을 사이에 두고 출력한다.
 ## (단, 시는 0부터 23까지의 정수, 분은 0부터 59까지의 정수이다. 디지털 시계는 23시 59분에서 1분이 지나면 0시 0분이 된다.)
 
-h, m = input().split()
-total = int(input())
+# h, m = input().split()
+# total = int(input())
 
-h = int(h)
-m = int(m)
+# h = int(h)
+# m = int(m)
 
-total = m + total
+# total = m + total
 
-if total > 60: 
-    h +=  total//60
-    m = total%60
-    if h > 23:
-        print(h%24, m)
-    else:
-        print(h, m)
-elif total == 60:
-    m = 0
-    h += 1
-    if h > 23:
-        print(h%24, m)
-    else:
-        print(h, m)
-else:
-    print(h, total)
+# if total > 60: 
+#     h +=  total//60
+#     m = total%60
+#     if h > 23:
+#         print(h%24, m)
+#     else:
+#         print(h, m)
+# elif total == 60:
+#     m = 0
+#     h += 1
+#     if h > 23:
+#         print(h%24, m)
+#     else:
+#         print(h, m)
+# else:
+#     print(h, total)
+
+
+
+
 
 

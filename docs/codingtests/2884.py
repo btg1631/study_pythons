@@ -19,19 +19,41 @@
 ## 첫째 줄에 상근이가 창영이의 방법을 사용할 때, 설정해야 하는 알람 시간을 출력한다.
 ## (입력과 같은 형태로 출력하면 된다.)
 
-H, M = input().split()
-H = int(H)
-M = int(M)
+# H, M = input().split()
+# H = int(H)
+# M = int(M)
 
-# 23시 15분 - 24시 60분
-if H == 0:
-    if M < 45:
-        print((H + 23), (M + 15))
-    else:
-        print((H), (M + 15 - 60))
-elif 0 < H:
-    if M < 45:
-        print((H + 23 - 24), (M + 15))
-    else:
-        print((H), (M + 15 - 60))
+# # 45분을 뻰다는 것은 == 23시 15분 을 더하는 것
+# # 23시 15분 - 24시 60분
+# if H == 0:
+#     if M < 45:
+#         print((H + 23), (M + 15))
+#     else:
+#         print((H), (M + 15 - 60))
+# elif 0 < H:
+#     if M < 45:
+#         print((H + 23 - 24), (M + 15))
+#     else:
+#         print((H), (M + 15 - 60))
    
+
+######## FUNCTION 활용 #########
+# # 45분을 뻰다는 것은 == 23시 15분 을 더하는 것
+# # 23시 15분 - 24시 60분
+
+def clock(hour, min):
+    if  hour == 0:
+        if M < 45:
+            print((hour + 23), (min + 15))
+        else:
+            print((hour), (min + 15 - 60))
+    else:
+        if M < 45:
+            print((hour + 23 - 24), (min + 15))
+        else:
+            print((hour), (min + 15 - 60))
+
+H, M = map(int, input().split())
+clock(H, M)
+
+

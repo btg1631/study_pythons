@@ -9,13 +9,31 @@
 ## A가 B보다 작은 경우에는 '<'를 출력한다.
 ## A와 B가 같은 경우에는 '=='를 출력한다.
 
-A, B = input().split()
-A = int(A)
-B = int(B)
+# A, B = input().split()
+# A = int(A)
+# B = int(B)
 
-if A > B :
-    print(">")
-elif A < B:
-    print("<")
-else:
-    print("==")
+# if A > B :
+#     print(">")
+# elif A < B:
+#     print("<")
+# else:
+#     print("==")
+
+######## FUNCTION 활용 #########
+def comparison(num_first, num_second):
+    if num_first > num_second:
+        print('>')
+    elif num_first < num_second:
+        print('<')
+    else:
+        print("==")
+    return
+
+while True:
+    number = input()
+    if number != 'STOP':
+        num_first, num_second = map(int, number.split())
+        comparison(num_first, num_second)
+    else:
+        break

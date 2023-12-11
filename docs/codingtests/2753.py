@@ -10,11 +10,24 @@
 # 출력
 ## 첫째 줄에 윤년이면 1, 아니면 0을 출력한다.
 
-year = int(input())
+# year = int(input())
 
-if (year%4==0) and (year%100!=0):
-    print("1")
-elif year%400==0:
-    print("1")
-else:
-    print("0")
+# if (year%4==0) and (year%100!=0):
+#     print("1")
+# elif year%400==0:
+#     print("1")
+# else:
+#     print("0")
+
+######## FUNCTION 활용 #########
+
+def leap_year(year):
+    if (year%4 == 0) and (year%100 != 0):
+        print("1")
+    elif year%400 == 0:
+        print("1")
+    else:
+        print("0")
+
+year = int(input())
+leap_year(year)

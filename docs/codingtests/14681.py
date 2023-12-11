@@ -12,14 +12,30 @@
 # 출력
 ## 점 (x, y)의 사분면 번호(1, 2, 3, 4 중 하나)를 출력한다.
 
+# x = int(input())
+# y = int(input())
+
+# if (x>0 and y>0):
+#     print("1")
+# elif (x<0 and y>0):
+#     print("2")
+# elif (x<0 and y<0):
+#     print("3")
+# else:
+#     print("4")
+
+######## FUNCTION 활용 #########
+
+def Quadrant(x, y):
+    if x>0 and y>0:
+        print('제1사분면')
+    elif x<0 and y>0:
+        print('제2사분면')
+    elif x<0 and y<0:
+        print('제3사분면')
+    else:
+        print('제4사분면')
+
 x = int(input())
 y = int(input())
-
-if (x>0 and y>0):
-    print("1")
-elif (x<0 and y>0):
-    print("2")
-elif (x<0 and y<0):
-    print("3")
-else:
-    print("4")
+Quadrant(x, y)
