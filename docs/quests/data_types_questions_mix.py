@@ -28,28 +28,34 @@
 #     }
 # ]
 
-mixed_questions = []
-dict_question_mix = {}
-list_answer_input = []
 
-for i in range(3):
-    question_input = input()
-    dict_question_mix["question"] = question_input
-
-    for j in range(4):
-        answer_input = input()
-        list_answer_input.append(answer_input)
-    dict_question_mix["answer"] = list_answer_input
+def questions(num):
+    
+    mixed_questions = []
+    dict_question_mix = {}
     list_answer_input = []
 
-    correct_input = int(input())
-    dict_question_mix["correct_index"] = correct_input 
 
-    score_input = int(input())
-    dict_question_mix["score"] = score_input
+    for i in range(num):
+        question_input = input()
+        dict_question_mix["question"] = question_input
 
-    mixed_questions.append(dict_question_mix)
-    dict_question_mix = {}
+        for j in range(4):
+            answer_input = input()
+            list_answer_input.append(answer_input)
+        dict_question_mix["answer"] = list_answer_input
+        list_answer_input = []
+
+        correct_input = int(input())
+        dict_question_mix["correct_index"] = correct_input 
+
+        score_input = int(input())
+        dict_question_mix["score"] = score_input
+
+        mixed_questions.append(dict_question_mix)
+        dict_question_mix = {}
+    return mixed_questions
 
 
-print(mixed_questions)
+result = questions(3)
+print(result)
