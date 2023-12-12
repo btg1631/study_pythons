@@ -1,11 +1,11 @@
 def questions(num):
-
     mixed_questions = []
-    dict_question_mix = {}
-    list_answer_input = []
-
 
     for num_count in range(num):
+
+        dict_question_mix = {}
+        list_answer_input = []
+
         # 문제 입력
         question_input = input("{}번 문제 입력: ".format(num_count+1))
         dict_question_mix["question"] = question_input
@@ -15,7 +15,6 @@ def questions(num):
             answer_input = input("답항 입력: ")
             list_answer_input.append(answer_input)
         dict_question_mix["answer"] = list_answer_input
-        list_answer_input = []      # 답항 리스트 초기화
 
         # 정답 입력
         correct_input = int(input("정답 입력: "))
@@ -27,8 +26,8 @@ def questions(num):
 
         mixed_questions.append(dict_question_mix)
 
-        dict_question_mix = {}      # 딕셔너리 초기화
-    return mixed_questions          
+    return mixed_questions
+
 
 
 result = questions(3)
