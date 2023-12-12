@@ -30,17 +30,17 @@
 
 
 def questions(num):
-    
+
     mixed_questions = []
     dict_question_mix = {}
     list_answer_input = []
 
 
-    for i in range(num):
+    for _ in range(num):
         question_input = input()
         dict_question_mix["question"] = question_input
 
-        for j in range(4):
+        for _ in range(4):
             answer_input = input()
             list_answer_input.append(answer_input)
         dict_question_mix["answer"] = list_answer_input
