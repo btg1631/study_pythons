@@ -8,21 +8,25 @@
 # 출력
 ## 첫째 줄에 입력으로 주어진 N개의 정수 중에 v가 몇 개인지 출력한다.
 
-N = int(input())
-count = 0
-b = input()
+def program():
+    N = int(input())
+    count = 0
+    b = input()
+    v = int(input())
 
-for i in range(N):      # a리스트에 공백을 기준으로 문자열 입력받기
-    a = b.split()
+    for i in range(N):      # a리스트에 공백을 기준으로 문자열 입력받기
+        a = b.split()
 
-v = int(input())
-a = list(map(int, a))   # a리스트 문자열 -> 정수로 바꿈
+    a = list(map(int, a))   # a리스트 문자열 -> 정수로 바꿈
 
-for i in range(N):      # a리스트의 0부터 N-1까지
-    if a[i] == v:       # a리스트의 i번째가 v와 일치한다면
-        count += 1      # count에 1을 누적
+    for i in range(N):      # a리스트의 0부터 N-1까지
+        
+        if a[i] == v:       # a리스트의 i번째가 v와 일치한다면
+            count += 1      # count에 1을 누적
 
-print(count)
+    print(count)
+
+program()
 
 
 

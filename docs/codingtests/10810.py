@@ -18,10 +18,10 @@
 ## 공이 들어있지 않은 바구니는 0을 출력한다.
 
 N, M = map(int, input().split())
-B = [int() for a in range(N)]
+B = [int() for _ in range(N)]
 
 
-for x in range(M):      # M번 공을 넣음(M번 반복)
+for _ in range(M):      # M번 공을 넣음(M번 반복)
     i, j, k = map(int, input().split())
     for a in range(i, j+1):     # i번 바구니부터 j번 바구니까지
         B[a-1] = k              # k번 번호의 공을 전부 하나씩 넣음

@@ -18,8 +18,12 @@ class Person:
     def add_age(self):
         pass
         print("45세")
-        return 
+        return 0
+    
+# 1. import : 같은 파일에 있을 경우 생략
+# 2. class instance : 생성자 호출
 person = Person()
+# 3. call function : 원하는 기능 호출
 person.add_age()
 
 
