@@ -52,6 +52,10 @@
 |문자열|[py](./docs/codingtests/10809.py)|한 단어에서 각 알파벳이 처음 등장하는 위치를 찾는 문제|[백준 10809](https://www.acmicpc.net/problem/10809)|
 |문자열|[py](./docs/codingtests/2675.py)|각 문자를 반복하여 출력하는 문제|[백준 2675](https://www.acmicpc.net/problem/2675)|
 |문자열|[py](./docs/codingtests/1152.py)|단어의 개수를 구하는 문제|[백준 1152](https://www.acmicpc.net/problem/1152)|
+|문자열|[py](./docs/codingtests/2908.py)|숫자를 뒤집어서 비교하는 문제|[백준 2908](https://www.acmicpc.net/problem/2908)|
+|문자열|[py](./docs/codingtests/5622.py)|규칙에 따라 문자에 대응하는 수를 출력하는 문제|[백준 5622](https://www.acmicpc.net/problem/5622)|
+|문자열|[py](./docs/codingtests/11718.py)|입력받은 그대로 출력|[백준 11718](https://www.acmicpc.net/problem/11718)|
+|심화|[py](./docs/codingtests/11718.py)||[백준 11718](https://www.acmicpc.net/problem/11718)|
 
 |3|4|6|7|
 
