@@ -9,14 +9,16 @@
 ## 이 숫자는 1,000보다 작거나 같고, 음이 아닌 정수이다.
 # 출력
 ## 첫째 줄에, 42로 나누었을 때, 서로 다른 나머지가 몇 개 있는지 출력한다.
-a = []
 
-for i in range(10):
-    n = int(input())
-    a.append(n % 42)
+def problem(num):
+    a = []
 
-a = set(a)
+    for _ in range(num):
+        n = int(input())
+        a.append(n % 42)
 
-print(len(a))
+    a = set(a)
 
+    print(len(a))
 
+problem(10)

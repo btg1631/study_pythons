@@ -50,6 +50,8 @@
 |문자열|[py](./docs/codingtests/11654.py)|주어진 글자의 아스키 코드 값을 출력|[백준 11654](https://www.acmicpc.net/problem/11654)|
 |문자열|[py](./docs/codingtests/11720.py)|주어진 숫자 N개의 합을 출력|[백준 11720](https://www.acmicpc.net/problem/11720)|
 |문자열|[py](./docs/codingtests/10809.py)|한 단어에서 각 알파벳이 처음 등장하는 위치를 찾는 문제|[백준 10809](https://www.acmicpc.net/problem/10809)|
+|문자열|[py](./docs/codingtests/2675.py)|각 문자를 반복하여 출력하는 문제|[백준 2675](https://www.acmicpc.net/problem/2675)|
+|문자열|[py](./docs/codingtests/1152.py)|단어의 개수를 구하는 문제|[백준 1152](https://www.acmicpc.net/problem/1152)|
 
 |3|4|6|7|
 

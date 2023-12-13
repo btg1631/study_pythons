@@ -13,14 +13,19 @@
 ## 1번 바구니부터 N번 바구니에 들어있는 공의 번호를 공백으로 구분해 출력한다.
 
 N, M = map(int, input().split())
-B = [int() for x in range(1, N+1)]
 
-for b in range(0, N):   # B(바구니)리스트에 1~N까지의 공을 넣음
-    B[b] = b+1
 
-for a in range(M):      # M개의 줄에 걸쳐 두 바구니 i, j의 공을 교환
-    i, j = map(int, input().split())
-    B[i-1], B[j-1] = B[j-1], B[i-1]
+def replace(num1, num2):
+    B = [int() for _ in range(1, N+1)]
 
-for s in range(len(B)):
-    print(B[s], end=' ')
+    for b in range(num1):   # B(바구니)리스트에 1~N까지의 공을 넣음
+        B[b] = b+1
+
+    for _ in range(num2):      # M개의 줄에 걸쳐 두 바구니 i, j의 공을 교환
+        i, j = map(int, input().split())
+        B[i-1], B[j-1] = B[j-1], B[i-1]
+
+    for s in range(len(B)):
+        print(B[s], end=' ')
+
+replace(N, M)

@@ -11,13 +11,17 @@
 ## 첫째 줄에 새로운 평균을 출력한다. 실제 정답과 출력값의 절대오차 또는 상대오차가 10-2 이하이면 정답이다.
 
 N = int(input())
-score = list(map(int, input().split()))
 
-M = max(score)
-result = 0
+def score(num):
+    score = list(map(int, input().split()))
 
-for i in range(N):
-    a = score[i] / M * 100
-    result += a
+    M = max(score)      # 최댓값을 M에 저장
+    result = 0
 
-print(result/N)
+    for i in range(num):
+        a = score[i] / M * 100
+        result += a
+
+    print(result/N)
+
+score(N)

@@ -16,19 +16,21 @@
 ## 모든 순서를 바꾼 다음에, 가장 왼쪽에 있는 바구니부터 바구니에 적혀있는 순서를 공백으로 구분해 출력한다.
 
 
-N, M = map(int, input().split())
-B = list(range(1, N+1))
+N, M = map(int, input().split())    # 첫째 줄에 N과 M이 주어진다.
 
-for _ in range(M):
-    i, j = map(int, input().split())
-    C = B[i-1:j]
-    C.reverse()
-    B = B[:i-1:] + C + B[j::]
+def replace(num):
+    B = list(range(1, N+1))         # 각각의 바구니에는 1번부터 N번까지 번호 부여 후 list B에 저장 [1, 2, 3, 4, 5]
 
-for x in range(len(B)):
-    print(B[x], end =" ")
+    for _ in range(num):              # M번 반복할 때
+        i, j = map(int, input().split())    
+        C = B[i-1:j]                # B의 i-1번째 부터 j-1번째까지 C에 저장
+        C.reverse()                 # C를 역순으로 저장
+        B = B[:i-1:] + C + B[j::]   # 다시 B에 B의 0번째부터 i-2번째 + C + B의 j번째부터 끝까지 저장 
+
+    for x in range(len(B)):
+        print(B[x], end =" ")
     
-    
+replace(M)
 
 
 

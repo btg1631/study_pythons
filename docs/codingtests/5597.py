@@ -10,10 +10,11 @@
 
 students = list(range(1,31)) # students 리스트에 1~30까지 숫자 넣음
 
-for i in range(28):          # 입력 28번 반복
-    num = (int(input()))     
-    students.remove(num)     # students 리스트에서 입력된 num 제거
+def student(num):
+    for i in range(num):          # 입력 28번 반복
+        num = (int(input()))     
+        students.remove(num)     # students 리스트에서 입력된 num 제거
+    print(students[0])
+    print(students[1])
 
-print(students[0])
-print(students[1])
-
+student(28)

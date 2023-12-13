@@ -12,4 +12,17 @@
 
 S = input()
 
-# S문자열의 S[i]번째 알파벳을 count+1
+def Al():
+    Alpa = "abcdefghijklmnopqrstuvwxyz"
+    result = []
+
+    for i in Alpa:
+        if i in S:
+            result.append(S.index(i))
+        else:
+            result.append(-1)
+
+    for j in range(len(result)):
+        print(result[j], end=" ")
+
+Al()
