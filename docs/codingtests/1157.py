@@ -10,7 +10,12 @@
 
 word = input()
 
+word.upper()
+
+li = []
+
+for i in word:
+    li.append(word.count(i))
 
 
-
-
+print(li)

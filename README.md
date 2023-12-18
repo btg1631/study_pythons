@@ -60,6 +60,8 @@
 |심화|[py](./docs/codingtests/2444.py)|첫째 줄부터 2×N-1번째 줄까지 차례대로 별을 출력|[백준 2444](https://www.acmicpc.net/problem/2444)|
 |심화|[py](./docs/codingtests/10988.py)|팰린드롬이면 1, 아니면 0을 출력|[백준 10988](https://www.acmicpc.net/problem/10988)|
 |심화|[py](./docs/codingtests/1157.py)|주어진 단어에서 가장 많이 사용된 알파벳을 출력|[백준 1157](https://www.acmicpc.net/problem/1157)|
-
+|심화|[py](./docs/codingtests/2941.py)||[백준 2941](https://www.acmicpc.net/problem/2941)|
+|심화|[py](./docs/codingtests/1316.py)||[백준 1316](https://www.acmicpc.net/problem/1316)|
+|심화|[py](./docs/codingtests/25206.py)||[백준 25206](https://www.acmicpc.net/problem/25206)|
 |3|4|6|7|
 
