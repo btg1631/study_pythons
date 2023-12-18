@@ -11,6 +11,9 @@
 
 T = int(input())
 
-for i in range(T):
-    a = input()
-    print(a[0]+a[-1])
+def testcase(num):
+    for _ in range(num):
+        a = input()
+    return(a[0]+a[-1])
+
+print(testcase(T))
