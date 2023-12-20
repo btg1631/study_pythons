@@ -1,4 +1,7 @@
 ### 코딩 테스트
+<details> 
+  <summary>백준 코딩 테스트</summary>
+  <p></p>
 
 |구분|소스|문제설명|출처|
 |--|--|--|--|
@@ -7,7 +10,7 @@
 |출력|[py](./docs/codingtests/1001.py)|A-B를 출력|[백준 1001](https://www.acmicpc.net/problem/1001)|
 |출력|[py](./docs/codingtests/10998.py)|A×B를 출력|[백준 10998](https://www.acmicpc.net/problem/10998)|
 |출력|[py](./docs/codingtests/1008.py)|A/B를 출력|[백준 1008](https://www.acmicpc.net/problem/1008)|
-|출력|[py](./docs/codingtests/10869.py)|A+B, A-B, A*B, A/B, A%B를 모두 출력|[백준 10869](https://www.acmicpc.net/problem/10869)|
+|출력|[py](./docs/codingtests/10869.py)|A+B, A-B, A*B, A/B, A%B를 출력|[백준 10869](https://www.acmicpc.net/problem/10869)|
 |출력|[py](./docs/codingtests/10926.py)|입력 뒤에 ??!를 붙여서 출력|[백준 10926](https://www.acmicpc.net/problem/10926)|
 |출력|[py](./docs/codingtests/18108.py)|불기 연도를 서기 연도로 변환한 결과를 출력|[백준 18108](https://www.acmicpc.net/problem/18108)|
 |출력|[py](./docs/codingtests/10430.py)|(A+B)%C, ((A%C)+(B%C))%C, (A×B)%C, ((A%C)×(B%C))%C를 출력|[백준 10430](https://www.acmicpc.net/problem/10430)|
@@ -40,7 +43,7 @@
 |배열|[py](./docs/codingtests/2562.py)|최댓값이 어디에 있는지 찾는 문제|[백준 2562](https://www.acmicpc.net/problem/2562)|
 |배열|[py](./docs/codingtests/10810.py)|배열에 값을 쓰는 문제|[백준 10810](https://www.acmicpc.net/problem/10810)|
 |배열|[py](./docs/codingtests/10813.py)|배열의 값을 교환하는 문제|[백준 10813](https://www.acmicpc.net/problem/10813)|
-|배열|[py](./docs/codingtests/5597.py)|1번째 줄엔 제출하지 않은 학생의 출석번호 중 가장 작은 것을 출력하고, 2번째 줄에선 그 다음 출석번호를 출력|[백준 5597](https://www.acmicpc.net/problem/5597)|
+|배열|[py](./docs/codingtests/5597.py)|제출하지 않은 학생의 출석번호 중 가장 작은 것을 출력하고, 그 다음 출석번호를 출력|[백준 5597](https://www.acmicpc.net/problem/5597)|
 |배열|[py](./docs/codingtests/3052.py)|배열을 활용하여 서로 다른 값의 개수를 찾는 문제|[백준 3052](https://www.acmicpc.net/problem/3052)|
 |배열|[py](./docs/codingtests/10811.py)|배열을 뒤집는 문제|[백준 10811](https://www.acmicpc.net/problem/10811)|
 |배열|[py](./docs/codingtests/1546.py)|평균을 조작하는 문제|[백준 1546](https://www.acmicpc.net/problem/1546)|
@@ -63,5 +66,35 @@
 |심화|[py](./docs/codingtests/2941.py)||[백준 2941](https://www.acmicpc.net/problem/2941)|
 |심화|[py](./docs/codingtests/1316.py)||[백준 1316](https://www.acmicpc.net/problem/1316)|
 |심화|[py](./docs/codingtests/25206.py)||[백준 25206](https://www.acmicpc.net/problem/25206)|
-|3|4|6|7|
+</details>
 
+### 코드 블럭
+<details open> 
+  <summary>이곳을 클릭하세요</summary>
+  <p>추가적인 정보가 여기에 표시됩니다.</p>
+
+
+```
+1. Python에서 변수를 선언하는 방법은? (점수: 10점)
+1) var name 2) name = value 3) set name 4) name == value
+-정답 :  4
+2. Python에서 리스트(List)의 특징은 무엇인가요? (점수: 15점)
+1) 순서가 있고 변경 가능하다, 2) 중복된 값을 가질 수 없다, 3) 원소를 추가하거나 삭제할 수 없다, 4) 정렬된 
+상태로 유지된다
+-정답 :  2
+3. Python에서 조건문을 작성하는 방법은? (점수: 10점)
+1) if-else, 2) for-in, 3) while, 4) def
+-정답 :  3
+4. Python에서 함수를 정의하는 방법은? (점수: 5점)
+1) class, 2) def, 3) import, 4) return
+-정답 :  2
+—----- 결과 —-------------
+응답한 내용 : 1번 4, 2번 2, 3번 3, 4번 2
+당신 응답 합계 : 5점
+학점은 F 입니다.
+```
+```
+~$ python ./solving_problems_functions.py
+~$ python ./solving_problems_classes.py
+```
+</details>
