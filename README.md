@@ -1,6 +1,6 @@
 ### 코딩 테스트
-<details> 
-  <summary>백준 코딩 테스트</summary>
+<details open> 
+  <summary>출력</summary>
   <p></p>
 
 |구분|소스|문제설명|출처|
@@ -18,6 +18,14 @@
 |출력|[py](./docs/codingtests/11382.py)|A+B+C의 값을 출력|[백준 11382](https://www.acmicpc.net/problem/11382)|
 |출력|[py](./docs/codingtests/10171.py)|고양이를 출력|[백준 10171](https://www.acmicpc.net/problem/10171)|
 |출력|[py](./docs/codingtests/10172.py)|개를 출력|[백준 10172](https://www.acmicpc.net/problem/10172)|
+</details>
+
+<details> 
+  <summary>조건문</summary>
+  <p></p>
+
+|구분|소스|문제설명|출처|
+|--|--|--|--|
 |조건문|[py](./docs/codingtests/1330.py)|두 수를 비교한 결과를 출력|[백준 1330](https://www.acmicpc.net/problem/1330)|
 |조건문|[py](./docs/codingtests/9498.py)|시험 성적을 출력|[백준 9498](https://www.acmicpc.net/problem/9498)|
 |조건문|[py](./docs/codingtests/2753.py)|윤년을 판별하는 문제|[백준 2753](https://www.acmicpc.net/problem/2753)|
@@ -25,6 +33,14 @@
 |조건문|[py](./docs/codingtests/2884.py)|시간 계산 문제|[백준 2884](https://www.acmicpc.net/problem/2884)|
 |조건문|[py](./docs/codingtests/2525.py)|범위가 더 넓은 시간 계산 문제|[백준 2525](https://www.acmicpc.net/problem/2525)|
 |조건문|[py](./docs/codingtests/2480.py)|조건에 따라 상금을 계산하는 문제|[백준 2480](https://www.acmicpc.net/problem/2480)|
+</details>
+
+<details> 
+  <summary>반복문</summary>
+  <p></p>
+
+|구분|소스|문제설명|출처|
+|--|--|--|--|
 |반복문|[py](./docs/codingtests/2739.py)|구구단을 출력|[백준 2739](https://www.acmicpc.net/problem/2739)|
 |반복문|[py](./docs/codingtests/10950.py)|A+B를 여러 번 출력|[백준 10950](https://www.acmicpc.net/problem/10950)|
 |반복문|[py](./docs/codingtests/8393.py)|1부터 N까지의 합을 출력|[백준 8393](https://www.acmicpc.net/problem/8393)|
@@ -37,6 +53,14 @@
 |반복문|[py](./docs/codingtests/2439.py)|첫째 줄부터 N번째 줄까지 차례대로 별을 출력2|[백준 2439](https://www.acmicpc.net/problem/2439)|
 |반복문|[py](./docs/codingtests/10952.py)|0 0이 들어올 때까지 A+B를 출력|[백준 10952](https://www.acmicpc.net/problem/10952)|
 |반복문|[py](./docs/codingtests/10951.py)|입력이 끝날 때까지 A+B를 출력(EOF)|[백준 10951](https://www.acmicpc.net/problem/10951)|
+</details>
+
+<details> 
+  <summary>배열</summary>
+  <p></p>
+
+|구분|소스|문제설명|출처|
+|--|--|--|--|
 |배열|[py](./docs/codingtests/10807.py)|배열을 입력받고 v를 찾는 문제|[백준 10807](https://www.acmicpc.net/problem/10807)|
 |배열|[py](./docs/codingtests/10871.py)|배열을 입력받고 X보다 작은 수를 찾는 문제|[백준 10871](https://www.acmicpc.net/problem/10871)|
 |배열|[py](./docs/codingtests/10818.py)|최솟값과 최댓값을 찾는 문제|[백준 10818](https://www.acmicpc.net/problem/10818)|
@@ -47,6 +71,14 @@
 |배열|[py](./docs/codingtests/3052.py)|배열을 활용하여 서로 다른 값의 개수를 찾는 문제|[백준 3052](https://www.acmicpc.net/problem/3052)|
 |배열|[py](./docs/codingtests/10811.py)|배열을 뒤집는 문제|[백준 10811](https://www.acmicpc.net/problem/10811)|
 |배열|[py](./docs/codingtests/1546.py)|평균을 조작하는 문제|[백준 1546](https://www.acmicpc.net/problem/1546)|
+</details>
+
+<details> 
+  <summary>문자열</summary>
+  <p></p>
+
+|구분|소스|문제설명|출처|
+|--|--|--|--|
 |문자열|[py](./docs/codingtests/27866.py)|S의 i번째 글자를 출력|[백준 27866](https://www.acmicpc.net/problem/27866)|
 |문자열|[py](./docs/codingtests/2743.py)|입력으로 주어진 단어의 길이를 출력|[백준 2743](https://www.acmicpc.net/problem/2743)|
 |문자열|[py](./docs/codingtests/9086.py)|주어진 문자열의 첫 글자와 마지막 글자를 연속하여 출력|[백준 9086](https://www.acmicpc.net/problem/9086)|
@@ -58,16 +90,30 @@
 |문자열|[py](./docs/codingtests/2908.py)|숫자를 뒤집어서 비교하는 문제|[백준 2908](https://www.acmicpc.net/problem/2908)|
 |문자열|[py](./docs/codingtests/5622.py)|규칙에 따라 문자에 대응하는 수를 출력하는 문제|[백준 5622](https://www.acmicpc.net/problem/5622)|
 |문자열|[py](./docs/codingtests/11718.py)|입력받은 그대로 출력|[백준 11718](https://www.acmicpc.net/problem/11718)|
+</details>
+
+<details> 
+  <summary>심화</summary>
+  <p></p>
+
+|구분|소스|문제설명|출처|
+|--|--|--|--|
 |심화|[py](./docs/codingtests/25083.py)|새싹을 출력|[백준 25083](https://www.acmicpc.net/problem/25083)|
 |심화|[py](./docs/codingtests/3003.py)|입력에서 주어진대로 몇 개의 피스를 더하거나 빼야 되는지를 출력|[백준 3003](https://www.acmicpc.net/problem/3003)|
 |심화|[py](./docs/codingtests/2444.py)|첫째 줄부터 2×N-1번째 줄까지 차례대로 별을 출력|[백준 2444](https://www.acmicpc.net/problem/2444)|
 |심화|[py](./docs/codingtests/10988.py)|팰린드롬이면 1, 아니면 0을 출력|[백준 10988](https://www.acmicpc.net/problem/10988)|
-|3|4|6|7|
 |심화|[py](./docs/codingtests/1157.py)|주어진 단어에서 가장 많이 사용된 알파벳을 출력|[백준 1157](https://www.acmicpc.net/problem/1157)|
 |심화|[py](./docs/codingtests/2941.py)||[백준 2941](https://www.acmicpc.net/problem/2941)|
 |심화|[py](./docs/codingtests/1316.py)||[백준 1316](https://www.acmicpc.net/problem/1316)|
 |심화|[py](./docs/codingtests/25206.py)||[백준 25206](https://www.acmicpc.net/problem/25206)|
-|3|4|6|7|
+</details>
+
+<details> 
+  <summary>2차원 배열</summary>
+  <p></p>
+
+|구분|소스|문제설명|출처|
+|--|--|--|--|
 |2차원 배열|[py](./docs/codingtests/2738.py)|행렬을 2차원 배열로 만들어 더하는 문제|[백준 2738](https://www.acmicpc.net/problem/2738)|
 |2차원 배열|[py](./docs/codingtests/2566.py)|최댓값을 2차원에서 찾는 문제|[백준 2566](https://www.acmicpc.net/problem/2566)|
 |2차원 배열|[py](./docs/codingtests/10798.py)|문자열의 배열을 다루는 문제|[백준 10798](https://www.acmicpc.net/problem/10798)|
@@ -77,7 +123,7 @@
 </details>
 
 ### 코드 블럭
-<details open> 
+<details> 
   <summary>이곳을 클릭하세요</summary>
   <p>추가적인 정보가 여기에 표시됩니다.</p>
 
