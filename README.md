@@ -59,9 +59,15 @@
 |심화|[py](./docs/codingtests/3003.py)|입력에서 주어진대로 몇 개의 피스를 더하거나 빼야 되는지를 출력|[백준 3003](https://www.acmicpc.net/problem/3003)|
 |심화|[py](./docs/codingtests/2444.py)|첫째 줄부터 2×N-1번째 줄까지 차례대로 별을 출력|[백준 2444](https://www.acmicpc.net/problem/2444)|
 |심화|[py](./docs/codingtests/10988.py)|팰린드롬이면 1, 아니면 0을 출력|[백준 10988](https://www.acmicpc.net/problem/10988)|
+|3|4|6|7|
 |심화|[py](./docs/codingtests/1157.py)|주어진 단어에서 가장 많이 사용된 알파벳을 출력|[백준 1157](https://www.acmicpc.net/problem/1157)|
 |심화|[py](./docs/codingtests/2941.py)||[백준 2941](https://www.acmicpc.net/problem/2941)|
 |심화|[py](./docs/codingtests/1316.py)||[백준 1316](https://www.acmicpc.net/problem/1316)|
 |심화|[py](./docs/codingtests/25206.py)||[백준 25206](https://www.acmicpc.net/problem/25206)|
 |3|4|6|7|
+|2차원 배열|[py](./docs/codingtests/2738.py)|행렬을 2차원 배열로 만들어 더하는 문제|[백준 2738](https://www.acmicpc.net/problem/2738)|
+|2차원 배열|[py](./docs/codingtests/2566.py)|최댓값을 2차원에서 찾는 문제|[백준 2566](https://www.acmicpc.net/problem/2566)|
+|2차원 배열|[py](./docs/codingtests/10798.py)|문자열의 배열을 다루는 문제|[백준 10798](https://www.acmicpc.net/problem/10798)|
+|2차원 배열|[py](./docs/codingtests/2563.py)|2차원 배열을 활용하여 색종이로 평면을 덮는 문제|[백준 2563](https://www.acmicpc.net/problem/2563)|
+
 

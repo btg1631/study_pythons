@@ -23,5 +23,4 @@ def PPP():
     else:
         print(1)
 
-
-ppp()
+PPP()
