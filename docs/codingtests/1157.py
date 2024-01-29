@@ -9,13 +9,21 @@
 ## 단, 가장 많이 사용된 알파벳이 여러 개 존재하는 경우에는 ?를 출력한다.
 
 word = input()
+word = word.upper()
 
-word.upper()
 
-li = []
+x = [] # 처음 등장한 값인지 판별하는 리스트
+new_a = [] # 중복된 원소만 넣는 리스트
 
 for i in word:
-    li.append(word.count(i))
+    if i not in x: # 처음 등장한 원소
+        x.append(i)
+    else:
+        if i not in new_a: # 이미 중복 원소로 판정된 경우는 제외
+            new_a.append(i)
 
+if len(new_a) >= 2:
+    print("?")
+else:
+    print(max(word))
 
-print(li)
