@@ -1,5 +1,78 @@
-### 코딩 테스트
-<details open> 
+# 📚 study_pythons
+
+## ☑ 사용기술
+<img alt="이미지명" src ="https://img.shields.io/badge/PYTHON-3776AB.svg?&style=for-the-badge&logo=PYTHON&logoColor=white"/>
+<img alt="이미지명" src ="https://img.shields.io/badge/visual studio code-007ACC.svg?&style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+
+
+## 💻 data type
+|*|code|설명|비고|
+|--|--|--|--|
+|1|[data_types_strings](./docs/data_types_strings.py)|||
+|2|[data_types_booleans](./docs/data_types_booleans.py)|||
+|3|[data_types_numerics](./docs/data_types_numerics.py)|||
+|4|[data_types_lists](./docs/data_types_lists.py)|||
+|5|[data_types_dictionaries](./docs/data_types_dictionaries.py)|||
+|6|[data_types_mixed](./docs/data_types_mixed.py)|||
+|7|[data_types_datetime](./docs/data_types_datetime.py)|||
+|8|[data_types_casts](./docs/data_types_casts.py)|||
+
+
+## 💻 function
+|*|code|설명|비고|
+|--|--|--|--|
+|1|[functions_formats](./docs/functions_formats.py)|||
+|2|[functions_main](./docs/functions_main.py)|||
+|3|[functions_parameters](./docs/functions_parameters.py)|||
+|4|[functions_returns](./docs/functions_returns.py)|||
+|5|[functions_callbacks](./docs/functions_callbacks.py)|||
+|6|[function_lamdas](./docs/function_lamdas.py)|||
+
+## 💻 loop
+|*|code|설명|비고|
+|--|--|--|--|
+|1|[if_elif_elses](./docs/if_elif_elses.py)|||
+|2|[loops_whiles](./docs/loops_whiles.py)|||
+|3|[loops_fors](./docs/loops_fors.py)|||
+|4|[loops_fors_comprehenstion](./docs/loops_fors_comprehenstion.py)|||
+
+## 💻 class
+|*|code|설명|비고|
+|--|--|--|--|
+|1|[classes_formats](./docs/classes_formats.py)|||
+|2|[classes_modules](./docs/classes_modules.py)|||
+|3|[classes_importsfrombuilt-in](./docs/classes_importsfrombuilt-in.py)|||
+|4|[classes_RPGgames](./docs/classes_RPGgames.py)|||
+
+## 💻 other
+|*|code|설명|비고|
+|--|--|--|--|
+|1|[inputs](./docs/inputs.py)|||
+|2|[outputs](./docs/outputs.py)|||
+|3|[demo_servers](./docs/demo_servers.py)|||
+|4|[exceptions_handlings](./docs/exceptions_handlings.py)|||
+|5|[syntax_bases](./docs/syntax_bases.py)|||
+|6|[prams_kwargs](./docs/prams_kwargs.py)|||
+|7|[usefuls](./docs/usefuls.py)|||
+
+## 📈 quests
+|*|code|설명|비고|
+|--|--|--|--|
+|1|[onehandgame](./docs/quests/onehandgame.py)|변수 재사용||
+|2|[inputwiththree_outputcuboid](./docs/quests/inputwiththree_outputcuboid.py)|input, output||
+|3|[bmis](./docs/quests/bmis.py)|bmi 계산||
+|4|[timestables_fors](./docs/quests/timestables_fors.py)|구구단 5단 표시||
+|5|[classes_arithmetics](./docs/quests/classes_arithmetics.py)|뺄셈, 곱셈, 나눗셈 실행과 출력||
+|6|[cal_loop_multiply](./docs/quests/cal_loop_multiply.py)|사용자 입력 반복 곱셈 계산기. 'q' 입력 시 종료||
+|7|[timestables_function](./docs/quests/timestables_function.py)|구구단 [30, 35, 20]단 출력||
+|8|[data_types_questions_mix](./docs/quests/data_types_questions_mix.py)|문제 작성 프로그램 : 출제자 직접 입력||
+
+
+
+## 📚 코딩 테스트
+## [백준(BAEKJOON)](https://www.acmicpc.net/problemset)
+
+<details> 
   <summary>출력</summary>
   <p></p>
 
@@ -119,8 +192,14 @@
 |2차원 배열|[py](./docs/codingtests/10798.py)|문자열의 배열을 다루는 문제|[백준 10798](https://www.acmicpc.net/problem/10798)|
 |2차원 배열|[py](./docs/codingtests/2563.py)|2차원 배열을 활용하여 색종이로 평면을 덮는 문제|[백준 2563](https://www.acmicpc.net/problem/2563)|
 
-
 </details>
+
+## [프로그래머스(BAEKJOON)](https://school.programmers.co.kr/learn/challenges?order=recent&page=1&levels=1)
+|구분|소스|문제설명|출처|
+|--|--|--|--|
+|||||
+
+
 
 ### 코드 블럭
 <details> 
