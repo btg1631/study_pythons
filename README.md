@@ -44,7 +44,7 @@
 |3|[classes_importsfrombuilt-in](./docs/classes_importsfrombuilt-in.py)|||
 |4|[classes_RPGgames](./docs/classes_RPGgames.py)|||
 
-## 💻 other
+## 💻 others
 |*|code|설명|비고|
 |--|--|--|--|
 |1|[inputs](./docs/inputs.py)|||
